@@ -31,7 +31,7 @@ while True:
         print(f"Player {current_player + 1} moved to position {new_position}")
     
     if new_position == 100:
-        print(f"\n🎉 Player {current_player + 1} wins! 🎉")
+        print(f"\n Player {current_player + 1} wins! ")
         break
     
     current_player = 1 - current_player
